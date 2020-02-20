@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: hystrixprivider
+server:
+  port: 9001
+eureka:
+  client:
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://192.168.136.128:8761/eureka/,http://192.168.136.129:8761/eureka/
